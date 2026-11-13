@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="320" height="80">
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0066B3" />
+      <stop offset="100%" stop-color="#003366" />
+    </linearGradient>
+    <linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E53935" />
+      <stop offset="100%" stop-color="#C62828" />
+    </linearGradient>
+    <linearGradient id="orbitGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF5722" />
+      <stop offset="100%" stop-color="#E53935" />
+    </linearGradient>
+  </defs>
+
+  <!-- Emblem Icon on Left -->
+  <g transform="translate(10, 6) scale(0.92)">
+    <!-- Red 5-Pointed Star at Top -->
+    <polygon points="35,4 37.5,11.5 45,11.5 39,16 41.5,23.5 35,19 28.5,23.5 31,16 25,11.5 32.5,11.5" fill="url(#redGrad)" />
+    
+    <!-- Stylized Blue Arch / Delta -->
+    <path d="M 35 15 C 38 25 54 48 56 68 C 50 68 46 64 43 54 C 39 40 31 40 27 54 C 24 64 20 68 14 68 C 16 48 32 25 35 15 Z" fill="url(#blueGrad)" />
+    
+    <!-- Red/Orange Orbital Swoosh -->
+    <path d="M 10 46 C 8 36 24 28 42 32 C 58 35 64 45 61 52 C 58 58 46 61 34 58 C 24 55 12 51 10 46 Z" fill="none" stroke="url(#orbitGrad)" stroke-width="4.5" stroke-linecap="round" />
+  </g>
+
+  <!-- Typography on Right -->
+  <g transform="translate(78, 0)">
+    <!-- KIET Acronym -->
+    <text x="0" y="38" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Montserrat', Roboto, sans-serif" font-size="34" font-weight="900" letter-spacing="2" fill="#0B2545">KIET</text>
+    
+    <!-- Tagline Divider Line -->
+    <rect x="0" y="44" width="220" height="2" fill="#0066B3" rx="1" />
+    
+    <!-- University Full Name -->
+    <text x="0" y="58" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Inter', Roboto, sans-serif" font-size="9" font-weight="700" letter-spacing="0.5" fill="#1E3A8A">KARACHI INSTITUTE OF ECONOMICS &amp; TECHNOLOGY</text>
+    
+    <!-- Subtitle / Accreditation -->
+    <text x="0" y="70" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Inter', Roboto, sans-serif" font-size="7.5" font-weight="600" letter-spacing="0.4" fill="#64748B">CHARTERED BY GOVT. OF SINDH • HEC RECOGNIZED</text>
+  </g>
+</svg>
